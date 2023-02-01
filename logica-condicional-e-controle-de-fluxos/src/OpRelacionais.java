@@ -1,7 +1,7 @@
 /**
  * Classe de exemplo para o exercício da Aula 1 de Operadores lógicos e relacionais, Controle de fluxo e Blocos.
  */
-public class Main {
+public class OpRelacionais {
 
     public static void main(String[] args) {
 
@@ -23,10 +23,10 @@ public class Main {
         byte y1 = 1;
         short h1 = 25;
 
-        System.out.println("i1 == i2 " + (i1 == i2));
-        System.out.println("i1 != i2 " + (i1 != i2));
-        System.out.println("i1 > i2 " + (i1 > i2));
-        System.out.println("i1 <= i2 " + (i1 <= i2));
+        System.out.println("i1 == i2 " + (i1 == i2));//false
+        System.out.println("i1 != i2 " + (i1 != i2));//true
+        System.out.println("i1 > i2 " + (i1 > i2));//false
+        System.out.println("i1 <= i2 " + (i1 <= i2));//true
 
         System.out.println("f1 == f2 " + (f1 == f2));
         System.out.println("f1 != f2 " + (f1 != f2));
@@ -41,8 +41,8 @@ public class Main {
         System.out.println("s1 == s2 " + (s1 == s2));
         System.out.println("s1 == s3 " + (s1 == s3));
         System.out.println("s1 != s2 " + (s1 != s2));
-        System.out.println(s1 >= s2);
-        System.out.println(s1 < s2);
+        //System.out.println(s1 >= s2);
+        //System.out.println(s1 < s2);
 
 
         System.out.println("b1 == b2 " + (b1 == b2));
@@ -59,5 +59,6 @@ public class Main {
         System.out.println("l2 >= i1 " + (l2 >= i1));
         System.out.println("y1 != h1 " + (y1 != h1));
 
+        
     }
 }
